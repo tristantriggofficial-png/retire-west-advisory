@@ -722,7 +722,7 @@
         await fetch('https://services.leadconnectorhq.com/hooks/WEBHOOK_ID_PLACEHOLDER/webhook-trigger/WEBHOOK_ID_PLACEHOLDER', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ ...data, source: "retirewestadvisory.com media inquiry' })
+          body: JSON.stringify({ ...data, source: "retirewestadvisory.com media inquiry" })
         });
       } catch (_) {}
       e.target.reset();
